@@ -114,7 +114,7 @@ public class Main {
   private static void visualizarEstoque(Peca[] estoque) {
     System.out.println("Estoque Atual:");
     for (Peca peca : estoque) {
-      System.out.println(peca.getDesc() + ": " + peca.getQuant());
+      System.out.println(peca.getDesc() + ": " + peca.getQuant() + " (quant); " + peca.getMin() + " (min); " + peca.getMax() + " (max); ");
     }
     System.out.println();
   }
